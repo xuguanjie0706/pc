@@ -1,0 +1,17 @@
+<template>
+  <error-boundary>
+    <router-view></router-view>
+  </error-boundary>
+</template>
+
+<script>
+import { localCacheVariableMixin } from '@/common';
+import ErrorBoundary from './ErrorBoundary.vue';
+
+export default {
+  mixins: [localCacheVariableMixin],
+  components: {
+    'error-boundary': ErrorBoundary,
+  },
+};
+</script>

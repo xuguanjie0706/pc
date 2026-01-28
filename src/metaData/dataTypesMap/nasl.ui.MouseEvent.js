@@ -1,0 +1,171 @@
+export default {
+    concept: "Structure",
+    name: "MouseEvent",
+    properties: [
+        {
+            concept: "StructureProperty",
+            name: "altKey",
+            description: "如果alt 键被按下，返回true",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Boolean",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "button",
+            description: "如果鼠标按钮被按下（如果有的话），将会返回一个数值",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "clientX",
+            description: "鼠标指针在点击元素（DOM）中的X坐标",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "clientY",
+            description: "鼠标指针在点击元素（DOM）中的Y坐标",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "ctrlKey",
+            description: "如果 control 键被按下，则返回 true",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "metaKey",
+            description: "如果 meta 键被按下，则返回 true",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "movementX",
+            description: "鼠标指针相对于最后mousemove事件位置的X坐标",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "movementY",
+            description: "鼠标指针相对于最后mousemove事件位置的Y坐标",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "offsetX",
+            description: "鼠标指针相对于目标节点内边位置的X坐标",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "offsetY",
+            description: "鼠标指针相对于目标节点内边位置的Y坐标",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "pageX",
+            description: "相对于整个文档的水平坐标",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "pageY",
+            description: "相对于整个文档的垂直坐标",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "screenX",
+            description: "相对于全局（屏幕）的水平坐标",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "screenY",
+            description: "相对于全局（屏幕）的垂直坐标",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+        {
+            concept: "StructureProperty",
+            name: "which",
+            description: "对应（键盘）按下的数字类型的 keyCode",
+            typeAnnotation: {
+                concept: "TypeAnnotation",
+                typeKind: "primitive",
+                typeNamespace: "nasl.core",
+                typeName: "Long",
+            },
+        },
+    ],
+};
